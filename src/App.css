@@ -1,0 +1,138 @@
+
+
+header{
+  background-color: black;
+  color: #ffffff;
+  padding: 0.5rem;
+  border: 0.5rem black;
+}
+
+header h1{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header section{
+  float: right;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  width: 15rem;
+  top: 0rem;
+  bottom: 0rem;
+  background-color: black;
+  color: #ffffff;
+}
+
+.sidebar p{
+  text-align: center;
+}
+
+.sidebar a{
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 1em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  display: block;
+  font-size: 1rem;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.sidebar a:hover{
+  cursor: pointer;    
+  transition: ease;
+  transition-delay: 0.1s;
+  border-left-color:  #FFF933;
+}
+
+.sidebar a:active{
+  transition: ease;
+  border-left-color:  #FFF933;
+  background-color: rgba(255, 249, 51, 0.2);
+}
+
+.sidebar a.active{
+  border-left-color:  #FFF933;
+  background-color: rgba(255, 249, 51, 0.2);
+}
+
+.pagina{
+  margin-top: 3.4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.url{
+  text-decoration: none;
+  color: white;
+}
+
+.url:hover{
+  transition: ease;
+  color: #FFF933;
+  cursor: pointer;
+}
+
+.divide li + li::before{
+  content: "|";
+  padding: 0 .3em 0 .1em;
+  color: #999;
+}
+
+.divide li{
+  display: inline-block;   
+}
+
+body{
+  background-color: #CECEBD;
+  margin: 0;
+}
+
+.uno{
+  padding: 5rem 5rem 5rem 8rem;
+}
+
+.main{
+  margin: 0rem 0rem 0rem 15rem;
+}
+
+.inline{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/*style of table*/
+#tablespace{
+  padding: 3rem;
+}
+
+#table{
+  padding: 1rem;
+  width: 100%;
+  background-color: white;
+}
+
+#table tr{
+  height: 3rem;
+}
+
+.invalid{
+  background-color: rgba(206, 56, 56, 0.2);
+}
+
+.elment{
+  width: 4rem;
+  background-color: #ffffff;
+  
+}
