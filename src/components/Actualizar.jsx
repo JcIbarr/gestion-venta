@@ -43,7 +43,7 @@ class  Actualizar extends Component{
             const  seller_update =  document.getElementById(`vendedorEdit${this.props.type}`).value  ;
               
              
-            Axios.put("http://localhost:3001/api/sales/update/",{
+            Axios.put("mongodb+srv://admin_root:root@misionticproyecto.c7jb8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
                 
                 id: id_update,
                 nameMetal: nameMetal_update   ,
