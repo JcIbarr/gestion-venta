@@ -28,13 +28,13 @@ class  Tabla extends Component{
 
   componentDidMount() {
     if (this.props.type == "Ventas"){
-      Axios.get("http://localhost:3001/api/sales/list/").then((res) =>{this.setState({sales: res.data.sales})});
+      Axios.get("http://localhost:3001/api/Ventas/list/").then((res) =>{this.setState({sales: res.data.sales})});
     this.noInfo()}
     
   }
   componentDidUpdate() {
     if (this.props.type == "Ventas"){
-      Axios.get("http://localhost:3001/api/sales/list/").then((res) =>{this.setState({sales: res.data.sales})});
+      Axios.get("http://localhost:3001/api/Ventas/list/").then((res) =>{this.setState({sales: res.data.sales})});
     this.noInfo()
 
     }
@@ -90,8 +90,6 @@ class  Tabla extends Component{
                   </td>
                 </tr> 
             )
-
-
           }
         </tbody>
         </table>  

@@ -31,7 +31,7 @@ class Registro extends Component {
             if (this.props.type == "Ventas") {
 
                 console.log(this.state.id_add)
-                Axios.post("http://localhost:3001/api/sales/add/", {
+                Axios.post("http://localhost:3001/api/Ventas/add/", {
 
                     id: this.state.id_add,
                     namefruit: this.state.nameMetal_add,

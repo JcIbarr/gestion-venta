@@ -20,7 +20,7 @@ class Botones extends Component {
     delete = () =>{
         if(this.props.type == "Ventas"){
             alert(this.props.id);
-            Axios.delete( `http://localhost:3001/api/sales/delete/${this.props.id}` )
+            Axios.delete( `http://localhost:3001/api/Ventas/delete/${this.props.id}` )
         }
     }
     showForm = () => {
